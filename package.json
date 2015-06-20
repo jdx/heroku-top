@@ -1,0 +1,29 @@
+{
+  "name": "heroku-top",
+  "version": "0.0.0",
+  "description": "top for Heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint . && mocha"
+  },
+  "repository": "dickeyxxx/heroku-top",
+  "keywords": [
+    "heroku-plugin"
+  ],
+  "author": "Jeff Dickey (@dickeyxxx)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dickeyxxx/heroku-top/issues"
+  },
+  "homepage": "https://github.com/dickeyxxx/heroku-top",
+  "dependencies": {
+    "blessed": "^0.1.61",
+    "co": "^4.5.4",
+    "heroku-cli-util": "^5.2.0",
+    "highland": "^2.5.1"
+  },
+  "devDependencies": {
+    "jshint": "*",
+    "mocha": "^2.2.4"
+  }
+}
